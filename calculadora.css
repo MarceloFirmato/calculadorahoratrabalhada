@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #264653 ;
+}
+
+.container{
+    margin: 80px auto;
+    width: 320px;
+}
+
+header {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+    width: 302px;
+    height: 56px;
+}
+
+header img {
+width: 50px;
+height: 50px;
+
+}
+
+header h1 {
+    font-size: 24px;
+    letter-spacing: 3%;
+    color: #E76F51;
+}
+
+.form {
+    margin-top: 40px;
+    width: 302px;
+    margin-left: 10px;
+    margin-bottom: 23px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    font-size: 16px;
+    letter-spacing: 3% ;
+    color: #F4A261;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+.form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #E76F51;
+    color: #2A9D8F;
+    outline: none;
+    margin: 8px;
+}
+
+.form button{
+    width: 100%;
+    background-color: #F4A261;
+    color: #264653;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 12px 75px;
+    margin-top: 10px;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 302px;
+    background-color: #F4A261;
+    color: #264653;
+    padding: 14px 23px;
+    margin-left: 10px;
+
+}
+
+.resultado span{
+    font-size: 16px;
+    letter-spacing: 6%;
+}
+
+.resultado #valorTotal{
+    font-size: 32px;
+}
+
+.resultado p{
+    font-size: 12px;
+}
+
+.hidden {
+    display: none;
+}
+
+#descricao {
+    margin-top: 15px;
+    color: #264653;
+    width: 302px;
+    margin-left: 10px;
+    letter-spacing: 6%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #F4A261CC;
+    border-radius: 12px;
+    font-weight: bold;
+}
