@@ -5,6 +5,13 @@ let equipamento = document.getElementById("equipamento");
 let resultado = document.getElementById("valorTotal");
 
 let hidden = document.getElementById("resultado");
+let show = document.getElementById("show")
+const sobre = document.getElementById("sobreCalculo");
+
+sobre.addEventListener("click", function (e) {
+  e.preventDefault();
+  show.classList.remove("show");
+});
 
 const enviar = document.getElementById("calcular");
 

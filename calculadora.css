@@ -88,6 +88,21 @@ header h1 {
 
 }
 
+#sobreCalculo{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    background-color: #F4A261;
+    color: #264653;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 12px 75px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .resultado span{
     font-size: 16px;
     letter-spacing: 6%;
@@ -105,7 +120,7 @@ header h1 {
     display: none;
 }
 
-#descricao {
+#descricao  {
     margin-top: 15px;
     color: #264653;
     width: 302px;
@@ -116,4 +131,21 @@ header h1 {
     background-color: #F4A261CC;
     border-radius: 12px;
     font-weight: bold;
+}
+
+.sobre2{
+    margin-top: 15px;
+    color: #264653;
+    width: 302px;
+    margin-left: 10px;
+    letter-spacing: 6%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #F4A261CC;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.show {
+    display: none;
 }

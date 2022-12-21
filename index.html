@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="calculadora.css">
-    <script src="./calculadora.js" defer> </script>
+    <link rel="stylesheet" href="calculadora.css" />
+    <script src="./calculadora.js" defer></script>
     <title>Calculadora hora trabalhada</title>
   </head>
   <body>
@@ -19,8 +19,11 @@
           <span>Calculadora </span>
           <span>Hora de Trabalho </span>
         </h1>
-    </header>
-    <p id="descricao">Para calcular o valor da sua hora de trabalho basta entrar com os valores abaixo.</p>
+      </header>
+      <p id="descricao">
+        Para calcular o valor da sua hora de trabalho basta entrar com os
+        valores abaixo.
+      </p>
       <div class="form">
         <form id="form">
           <label for="horasDiarias">Horas Diárias Trabalhadas</label>
@@ -38,6 +41,16 @@
         <span>Valor da Hora Trabalhada</span>
         <span id="valorTotal">R$ 00.00 </span>
         <p>Nesse valor você irá cobrir suas despesas e terá 50% de lucro</p>
+      </div>
+      <button id="sobreCalculo">Sobre</button>
+      <div id="sobre">
+        <div class="sobre2 show" id="show">
+          <p>Para calcular o valor a ser cobrado por seu serviço use:</p>
+          <p>• Horas que você irá trabalhar por dia no projeto;</p>
+          <p>• Dias que o projeto irá demandar de você;</p>
+          <p>• Suas dispesas mensais fixas relacionadas ao seu trabalho(transporte, luz, materiais, entre outros);</p>
+          <p>• Investimentos em equipamentos relacionados ao trabalho.</p>
+        </div>
       </div>
     </div>
   </body>
