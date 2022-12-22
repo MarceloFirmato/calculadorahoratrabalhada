@@ -74,6 +74,7 @@ header h1 {
     cursor: pointer;
     padding: 12px 75px;
     margin-top: 10px;
+    border-radius: 12px;
 }
 
 .resultado{
@@ -101,6 +102,7 @@ header h1 {
     padding: 12px 75px;
     margin-top: 10px;
     margin-left: 10px;
+    border-radius: 12px;
 }
 
 .resultado span{
@@ -131,6 +133,7 @@ header h1 {
     background-color: #F4A261CC;
     border-radius: 12px;
     font-weight: bold;
+    border-radius: 12px;
 }
 
 .sobre2{
@@ -144,8 +147,10 @@ header h1 {
     background-color: #F4A261CC;
     border-radius: 12px;
     font-weight: bold;
+    border-radius: 12px;
 }
 
 .show {
     display: none;
 }
+
